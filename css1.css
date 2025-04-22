@@ -1,0 +1,32 @@
+body{
+    background: #d104db;
+    background: linear-gradient(90deg,rgba(209, 4, 219, 1) 0%, rgba(245, 220, 0, 1) 100%);
+    margin: 0;
+}
+header{
+    background: linear-gradient(90deg,rgba(245, 220, 0, 1) 0%, rgba(209, 4, 219, 1) 100%);
+    color: black;
+    padding: 5px;
+}
+header:hover{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+
+}
+h1{
+    text-align: center;
+}
+ol, ul, a{
+    font-size: 150%;
+    margin: 2px;
+}
+img.sq{
+    height: 90%;
+    width: 100%;
+}
+img{
+    height: 500px;
+}
