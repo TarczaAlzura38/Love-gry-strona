@@ -31,3 +31,13 @@ img.sq{
     width: 100%;
     
 }
+div.main2{
+    background: linear-gradient(90deg,rgba(245, 220, 0, 1) 0%, rgba(209, 4, 219, 1) 100%);
+    color: black;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+div.main2:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
