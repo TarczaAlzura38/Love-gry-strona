@@ -28,5 +28,5 @@ img.sq{
     width: 100%;
 }
 img{
-    height: 500px;
+    max-height: 500px;
 }
