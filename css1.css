@@ -23,10 +23,11 @@ ol, ul, a{
     font-size: 150%;
     margin: 2px;
 }
-img.sq{
-    height: 90%;
-    width: 100%;
-}
 img{
     max-height: 500px;
+}
+img.sq{
+    max-height: 90%;
+    width: 100%;
+    
 }
