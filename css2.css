@@ -1,0 +1,40 @@
+body{
+    background: #d104db;
+    background: linear-gradient(90deg,rgba(209, 4, 219, 1) 0%, rgba(245, 220, 0, 1) 100%);
+    margin: 0;
+}
+header{
+    background: linear-gradient(90deg,rgba(245, 220, 0, 1) 0%, rgba(209, 4, 219, 1) 100%);
+    color: black;
+    padding: 5px;
+}
+header:hover{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+aside{
+    border: black solid 3px;
+    min-height: 150px;
+}
+img{
+    max-height: 200px;
+}
+aside.manus{
+    background-image: url('manus.jpg');
+    background-size: 100%;
+    width: 100%;
+}
+img.imgmanos{
+    max-height: 150px;
+    width: 100%;
+}
+div{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
